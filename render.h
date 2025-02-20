@@ -28,3 +28,9 @@ public:
     void SetParams(int uWidth,int uHeight,Model* uModel,TGAImage* uUV,Vec3f uLight,Vec3f uCenter,Vec3f uCamera);
     TGAImage* Render();
 };
+
+struct IShader{
+    virtual ~IShader();
+    virtual Vec3i vertex(int iface,int nvert)=0;
+    virtual bool fragment(Vec3f bar,TGAColor &color)=0;
+};

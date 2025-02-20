@@ -23,12 +23,6 @@ cmath
 -
 
 /home/usr/workspace/TinyRenderer/main.cpp
-vector
--
-cmath
--
-climits
--
 iostream
 -
 tgaimage.h
