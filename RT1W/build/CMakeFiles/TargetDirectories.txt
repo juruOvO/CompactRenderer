@@ -1,0 +1,3 @@
+/home/usr/workspace/TinyRenderer/RT1W/build/CMakeFiles/rebuild_cache.dir
+/home/usr/workspace/TinyRenderer/RT1W/build/CMakeFiles/edit_cache.dir
+/home/usr/workspace/TinyRenderer/RT1W/build/CMakeFiles/RT1W.dir
