@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -O3 -DNDEBUG    -rdynamic CMakeFiles/tinyrenderer.dir/geometry.cpp.o CMakeFiles/tinyrenderer.dir/main.cpp.o CMakeFiles/tinyrenderer.dir/model.cpp.o CMakeFiles/tinyrenderer.dir/render.cpp.o CMakeFiles/tinyrenderer.dir/tgaimage.cpp.o  -o tinyrenderer 

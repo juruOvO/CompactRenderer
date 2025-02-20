@@ -1,0 +1,3 @@
+/home/usr/workspace/TinyRenderer/build/CMakeFiles/rebuild_cache.dir
+/home/usr/workspace/TinyRenderer/build/CMakeFiles/edit_cache.dir
+/home/usr/workspace/TinyRenderer/build/CMakeFiles/tinyrenderer.dir

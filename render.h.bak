@@ -1,0 +1,34 @@
+#pragma once
+#include "tgaimage.h"
+#include "geometry.h"
+#include "model.h"
+
+// Vec3f cross(Vec3f v1,Vec3f v2);
+// void line(int x0, int y0, int x1, int y1, TGAImage& image, TGAColor color);
+// void line(Vec2i p0,Vec2i p1,TGAImage &image,TGAColor color);
+
+// void triangle(Vec2i p0,Vec2i p1,Vec2i p2,TGAImage &image,TGAColor color);
+// void triangle(TGAImage &image, float* zbuffer, int width,int height, Vec3f* vts,TGAImage *uv, Vec3f light_dir, Vec3f* world_coords);
+// void triangle(Vec3i* screen_coords, TGAImage &image,float* zbuffer,int width,TGAImage *uv,Vec3f*vts,float intensity);
+void triangle(Vec3i* screen_coords, TGAImage &image,int* zbuffer,int width,int height,TGAImage *uv,Vec3f*vts,float* intensity);
+void triangle(Vec3i* screen_coords, TGAImage &image,int* zbuffer,int width,int height,Vec3f*vts,float* intensity);
+//void rasterize(Vec2i p0,Vec2i p1,TGAImage &image,TGAColor color,int ybuffer[]);
+class Shader{
+private:
+    Vec3i* screen_coords;
+    TGAImage* layer;
+    int *zbuffer;
+    int width;
+    int height;
+    int depth;
+    Model* model;
+    TGAImage* uv;
+    Vec3f light_dir;
+    Vec3f centre;
+    Vec3f camera;
+public:
+    Shader();
+    ~Shader();
+    void SetParams(TGAImage* uLayer=NULL,int uWidth=0,int uHeight=0,Model* uModel=NULL,TGAImage* uUV=NULL,Vec3f uLight,Vec3f uCenter,Vec3f uCamera);
+    TGAImage* Render();
+};
