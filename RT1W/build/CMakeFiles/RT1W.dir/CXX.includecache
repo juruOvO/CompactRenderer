@@ -6,7 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/home/usr/workspace/TinyRenderer/RT1W/color.h
+vec3.h
+/home/usr/workspace/TinyRenderer/RT1W/vec3.h
+iostream
+-
+
 /home/usr/workspace/TinyRenderer/RT1W/main.cpp
+color.h
+/home/usr/workspace/TinyRenderer/RT1W/color.h
+vec3.h
+/home/usr/workspace/TinyRenderer/RT1W/vec3.h
+ray.h
+/home/usr/workspace/TinyRenderer/RT1W/ray.h
+iostream
+-
+
+/home/usr/workspace/TinyRenderer/RT1W/ray.h
+vec3.h
+/home/usr/workspace/TinyRenderer/RT1W/vec3.h
+
+/home/usr/workspace/TinyRenderer/RT1W/vec3.h
+cmath
+-
 iostream
 -
 

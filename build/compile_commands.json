@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/usr/workspace/TinyRenderer/build",
+  "command": "/usr/bin/g++     -fopenmp -g   -std=gnu++2a -o CMakeFiles/RT1W.dir/main.cpp.o -c /home/usr/workspace/TinyRenderer/RT1W/main.cpp",
+  "file": "/home/usr/workspace/TinyRenderer/RT1W/main.cpp"
+}
+]
