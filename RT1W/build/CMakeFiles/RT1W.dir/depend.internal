@@ -9,6 +9,7 @@ CMakeFiles/RT1W.dir/main.cpp.o
  /home/usr/workspace/TinyRenderer/RT1W/hittable_list.h
  /home/usr/workspace/TinyRenderer/RT1W/interval.h
  /home/usr/workspace/TinyRenderer/RT1W/main.cpp
+ /home/usr/workspace/TinyRenderer/RT1W/material.h
  /home/usr/workspace/TinyRenderer/RT1W/ray.h
  /home/usr/workspace/TinyRenderer/RT1W/sphere.h
  /home/usr/workspace/TinyRenderer/RT1W/vec3.h

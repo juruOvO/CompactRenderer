@@ -8,6 +8,7 @@ CMakeFiles/RT1W.dir/main.cpp.o: ../hittable.h
 CMakeFiles/RT1W.dir/main.cpp.o: ../hittable_list.h
 CMakeFiles/RT1W.dir/main.cpp.o: ../interval.h
 CMakeFiles/RT1W.dir/main.cpp.o: ../main.cpp
+CMakeFiles/RT1W.dir/main.cpp.o: ../material.h
 CMakeFiles/RT1W.dir/main.cpp.o: ../ray.h
 CMakeFiles/RT1W.dir/main.cpp.o: ../sphere.h
 CMakeFiles/RT1W.dir/main.cpp.o: ../vec3.h

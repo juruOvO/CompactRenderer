@@ -9,6 +9,8 @@
 /home/usr/workspace/TinyRenderer/RT1W/camera.h
 hittable.h
 /home/usr/workspace/TinyRenderer/RT1W/hittable.h
+material.h
+/home/usr/workspace/TinyRenderer/RT1W/material.h
 
 /home/usr/workspace/TinyRenderer/RT1W/color.h
 interval.h
@@ -63,6 +65,12 @@ sphere.h
 /home/usr/workspace/TinyRenderer/RT1W/sphere.h
 camera.h
 /home/usr/workspace/TinyRenderer/RT1W/camera.h
+material.h
+/home/usr/workspace/TinyRenderer/RT1W/material.h
+
+/home/usr/workspace/TinyRenderer/RT1W/material.h
+hittable.h
+/home/usr/workspace/TinyRenderer/RT1W/hittable.h
 
 /home/usr/workspace/TinyRenderer/RT1W/ray.h
 vec3.h

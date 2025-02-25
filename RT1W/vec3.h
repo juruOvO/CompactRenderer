@@ -47,6 +47,10 @@ public:
     static vec3 random(double min,double max){
         return vec3(random_double(min,max),random_double(min,max),random_double(min,max));
     }
+    bool near_zero()const{
+        auto s=1e-8;
+        return (std::fabs(e[0])<s)&&(std::fabs(e[1])<s)&&(std::fabs(e[2])<s);
+    }
 };
 
 using point3 = vec3;
@@ -105,5 +109,14 @@ inline vec3 random_on_hemisphere(const vec3& normal){
     vec3 on_unit_sphere=random_unit_vector();
     if(dot(on_unit_sphere,normal)>0.0)return on_unit_sphere;
     else return -on_unit_sphere;
+}
+inline vec3 reflect(const vec3& v,const vec3& n){
+    return v-2*dot(v,n)*n;
+}
+inline vec3 refract(const vec3&uv,const vec3&n,double etai_over_etait){
+    auto cos_theta=std::fmin(dot(-uv,n),1.0);
+    vec3 r_out_perp=etai_over_etait*(uv+cos_theta*n);
+    vec3 r_out_para=-std::sqrt(std::fabs(1.0-r_out_perp.length_squared()))*n;
+    return r_out_para+r_out_perp;
 }
 #endif
